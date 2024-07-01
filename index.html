@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>CoffeeChu</h1>
+        <button class="Addbtn">AddCart</button>
+
+    </header>
+    <main>
+        <section class="menu-section">
+            <h2>Hot Drinks</h2>
+            <ul>
+                <li>Espresso <span class="price">$2.50</span></li>
+                <li>Cappuccino <span class="price">$3.50</span></li>
+                <li>Latte <span class="price">$3.75</span></li>
+                <li>Americano <span class="price">$3.00</span></li>
+            </ul>
+        </section>
+        <section class="menu-section">
+            <h2>Cold Drinks</h2>
+            <ul>
+                <li>Iced Coffee <span class="price">$3.25</span></li>
+                <li>Cold Brew <span class="price">$3.75</span></li>
+                <li>Iced Tea <span class="price">$2.75</span></li>
+                <li>Lemonade <span class="price">$2.50</span></li>
+            </ul>
+        </section>
+
+    <div class="Cartform">
+        <form id="Bill">
+
+            <h2 class="Mtitle">Your Order</h2>
+
+            
+            <label class="Cartf">
+                <h2 class="item">Item</h2>
+                <h2 class="price">Price</h2>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose" class="choose"> 
+                <h4 class="item">Espresso</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$2.50</h4>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose"  class="choose"> 
+                <h4 class="item">Cappuccino</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$3.50</h4>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose"  class="choose"> 
+                <h4 class="item">Latte</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$3.75</h4>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose"  class="choose"> 
+                <h4 class="item">Americano</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$3.00</h4>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose"  class="choose"> 
+                <h4 class="item">Iced Coffee</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$3.25</h4>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose"  class="choose"> 
+                <h4 class="item">Cold Brew</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$3.75</h4>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose" class="choose"> 
+                <h4 class="item">Iced Tea</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$2.75</h4>
+            </label>
+
+            <label class="Cartf">
+                <input type="checkbox" id="choose"  class="choose"> 
+                <h4 class="item">Lemonade</h4>
+                <input type="number" id="quantity" class="Quantity" value="1" min="1" >
+                <h4 class="price">$2.50</h4>
+            </label>
+
+            <hr>
+
+        </form>
+
+        <form class="CartItems">
+            <div id="billitems">
+                <!-- <label class="Cartf" >
+                    <h4 class="item">Lemonade</h4>
+                    <input type="number" id="quantity" class="quantity" placeholder="1" min="1">
+                    <h4 class="price">$2.50</h4>
+                </label>
+
+                <label class="Cartf" >
+                    <h4 class="item">Lemonade</h4>
+                    <input type="number" id="quantity" class="quantity" placeholder="1" min="1">
+                    <h4 class="price">$2.50</h4>
+                </label> -->
+            </div>
+        </form>
+
+        <form id="totalBill">
+            <div class="totalPrice">
+                <!-- <label class="Cartf totalprice">
+                    <h2 class="item">Total Price</h2>                
+                    <h4 class="price">$2.50</h4>
+                </label> -->
+                 </div>
+        </form>
+    </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
